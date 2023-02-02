@@ -1,7 +1,7 @@
-app = "YOUR_FLY_APP_NAME" # APP NAME HERE
+app = "vaultswarden" # APP NAME HERE
 [mounts]
   destination = "/data"
-  source = "YOUR_FLY_VOLUME_NAME" # VOLUME NAME HERE
+  source = "vaultswarden" # VOLUME NAME HERE
 
 kill_signal = "SIGINT"
 kill_timeout = 5
